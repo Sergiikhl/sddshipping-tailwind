@@ -31,7 +31,7 @@ export default function HomePage() {
 
         <section className="max-w-xl mx-auto">
           <h2 className="text-2xl font-semibold mb-4 text-center">Send a Message</h2>
-          <form action="https://formspree.io/f/xpzgrzdz" method="POST" className="space-y-4">
+          <form action="https://formspree.io/f/xdkzonke" method="POST" className="space-y-4">
             <input name="name" type="text" placeholder="Your Name" required className="w-full border border-gray-300 rounded px-4 py-2" />
             <input name="email" type="email" placeholder="Your Email" required className="w-full border border-gray-300 rounded px-4 py-2" />
             <textarea name="message" placeholder="Your Message" rows="5" required className="w-full border border-gray-300 rounded px-4 py-2"></textarea>
